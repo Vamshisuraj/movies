@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tollywood Movie Ticket Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tollywood Movie Ticket Booking</h1>
+  </header>
+
+  <main>
+    <section id="movie-list">
+      <!-- Movie Listings Injected Here -->
+    </section>
+
+    <section id="booking-area" class="hidden">
+      <h2 id="selected-movie-title"></h2>
+      <div id="seat-map"></div>
+      <div id="booking-summary">
+        <p>Seats selected: <span id="selected-count">0</span></p>
+        <p>Total price: ₹<span id="selected-total">0</span></p>
+        <button id="confirm-btn">Confirm Booking</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tollywood Movies</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
